@@ -1,0 +1,48 @@
+#nav {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  color: #fff;
+  background-color: #002;
+  font-family: 'Poiret One',cursive;
+  font-size: 3rem;
+  padding: 0.3rem 0;
+  display: block;
+  text-align: center;
+  box-shadow: 0 10px 12px 0 rgba(0, 0, 0, 0.2), 0 8px 22px 0 rgba(0, 0, 0, 0.19);
+}
+
+#trademark {
+  display: inline-block;
+  color: #fff;
+  font-family: 'Lobster',cursive;
+  font-size: 3.6rem;
+}
+
+#opciones {
+  font-family: 'Poiret One',cursive;
+  color: #fff;
+}
+
+.zeldas {
+  display: inline-block;
+  color: #fff;
+  font-family: 'Poiret One',cursive;
+  font-size: 3rem;
+  display:inline-flex;
+  text-decoration: none;
+}
+
+.zeldas a {
+  color: #fff;
+}
+
+.zeldas a:visited, .zeldas a:visited:active, .zeldas a:link, .zeldas a:link:visited {
+  color: #fff;
+}
+
+#logo {
+  height: 68px;
+  width: 82px;
+  margin-left: 1rem;
+}

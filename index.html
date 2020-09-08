@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+    <html lang="es" dir="ltr">
+
+    <head>
+      
+      <link href="https://fonts.googleapis.com/css2?family=Poiret+One&display=swap" rel="stylesheet">
+      <link rel="stylesheet" href="css/copia.css">
+      <title>Menú</title>
+    </head>
+
+    <body>
+      <div id="container">
+        <div id="nav">
+          <img id="logo" src="imagenes/logo.jpeg" alt="logo rinconcito">
+          <p id="trademark">El Rinconcito Mexicano</p>
+          <span style="padding-right: 6rem;"></span>
+        </div>
+
+        <div id="titulo">
+          <p>Buen provecho</p>
+        </div>
+
+        <div id="menu">
+            <div id="desayuno">
+              
+        <p class="tituloTiempos">Platillo 1</p>
+        <div class="tarjetas">
+            <div class="card">
+              <img class="tarjeta" src="imagenes/none.jfif" alt="platillos" width="100%">
+              <p style="font-weight:600;">chile relleno</p>
+              <p>relleno queso 45</p>
+            </div>
+        </div>
+        
+            </div>
+
+          <div style="padding: 1rem 0;"></div>
+
+        </div>
+
+      </div>
+
+      <div style="padding: 15rem 0;"></div>
+
+      <div class="final">
+        <p style="font-size: 2.2rem;">MigrateDigital &#169; Todos los derechos reservados</p>
+      </div>
+    </body>
+
+    
+        <script type="text/javascript">
+          let ua = navigator.userAgent.toLowerCase();
+          if (ua.indexOf('safari') != -1) {
+            if (ua.indexOf('chrome') > -1) {
+              // Chrome
+            } else {
+              // Safari
+              letra = document.getElementsByClassName("card");
+              titulos = document.getElementsByClassName("tituloTiempos");
+              var i;
+              for (i = 0; i < letra.length; i++) {
+                letra[i].style.fontSize = "xx-large";
+              }
+              for (i = 0; i < titulos.length; i++) {
+                titulos[i].style.fontSize = "300%";
+              }
+            }
+          }
+        </script>
+    
+        </html>

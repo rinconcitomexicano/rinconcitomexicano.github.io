@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Raleway:wght@400;500;600&display=swap');
+
+#nav {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  color: #fff;
+  background-color: #002;
+  font-family: 'Poiret One',cursive;
+  font-size: 3rem;
+  padding: 0.3rem 0;
+  display: block;
+  text-align: center;
+  box-shadow: 0 10px 12px 0 rgba(0, 0, 0, 0.2), 0 8px 22px 0 rgba(0, 0, 0, 0.19);
+}
+
+#trademark {
+  display: inline-block;
+  color: #fff;
+  font-family: 'Lobster',cursive;
+  font-size: 3.6rem;
+}
+
+#opciones {
+  font-family: 'Poiret One',cursive;
+  color: #fff;
+}
+
+.zeldas {
+  display: inline-block;
+  color: #fff;
+  font-family: 'Poiret One',cursive;
+  font-size: 3rem;
+  display:inline-flex;
+  text-decoration: none;
+}
+
+.zeldas a {
+  color: #fff;
+}
+
+.zeldas a:visited, .zeldas a:visited:active, .zeldas a:link, .zeldas a:link:visited {
+  color: #fff;
+}
+
+#logo {
+  height: 76px;
+  width: auto;
+  margin-left: 1rem;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Raleway:wght@400;500;600&display=swap');
+
+
+body {
+  background-color: #ffe;
+}
+
+#container {
+  text-align: center;
+  width: 100%;
+}
+
+#desayuno {
+  text-align: center;
+}
+
+.card {
+  text-align: center;
+  display: inline-block;
+  width: 70%;
+  box-shadow: 0 12px 12px 0 rgba(0, 0, 0, 0.2), 0 8px 22px 0 rgba(0, 0, 0, 0.19);
+  font-family: 'Raleway',sans-serif;
+  color: #000;
+  font-size: 2.8rem;
+  border-radius: 8px;
+  border: 3px solid #002;
+  background-color: #fff;
+}
+
+.tarjeta {
+  border: 2px;
+  border-radius: 5px;
+}
+
+.tituloTiempos {
+  font-family: 'Raleway',sans-serif;
+  color: #000;
+  font-weight: 500;
+  font-size: 3rem;
+  text-align: right;
+  padding-right: 20%;
+}
+
+p.card {
+  padding: 2rem 0;
+}
+
+.tarjetas {
+  width: 100%;
+  text-align:center;
+}
+
+#titulo {
+  font-family: 'Lobster', sans-serif;
+  font-weight: 600;
+  padding-top: 8rem;
+  font-size: 6.8rem;
+  color: #002;
+}
+
+#menu {
+  text-align: center;
+  padding-top: 2rem;
+  display: inline-block;
+}
+
+#menu a {
+  color: #000;
+  text-decoration: none;
+}
+
+#menu a:visited {
+  color: #000;
+}
+
+.final {
+  text-align: center;
+  position:sticky;
+  bottom: 0;
+  width: 100%;
+  color: #fff;
+  background-color: #002;
+  padding: 2rem 0;
+  display: block;
+  margin: auto;
+}
